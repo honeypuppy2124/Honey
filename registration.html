@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+</head>
+<b><u><center><h1>REGISTRATION FORM</h1></center></u></b>
+<form action="successfull.html">
+<lable>Name:</lable>
+<input type="text" name="name" required><br><br>
+<lable>Hallticket No</lable>
+<input type="text" name="hallticket number" required><br><br>
+<lable>Branch</lable>
+<select>
+<option value="select">select</option>
+<option value="cse">cse</option>
+<option value="aiml">aiml</option>
+<option value="ds">ds</option>
+</select><br><br>
+<lable>Section</lable>
+<select>
+<option value="select">select</option>
+<option value="A">A</option>
+<option value="b">B</option>
+<option value="C">C</option>
+</select><br><br>
+<lable>email-id</lable>
+<input type="text" name="email-id" required><br><br>
+<lable>phone number</lable>
+<input type="text" name="phone number" required></br><br>
+<lable>Gender</lable><br><br>
+<input type="radio" name="gender" value="male">male
+<input type="radio" name="gender" value="female">female
+<input type="radio" name="gender" value="others">other<br><br>
+<lable>address</lable>
+<input type="text" name="address" required><br><br>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+<input id="cancelButton" onclick="cancelButton_click" type="button" value="cancel">
+</form>
+<script>
+function clear form(){
+document.geElementById("input-name").value="";
+documet.getElementById("input-email").value="";
+}
+</script>
+</body>
+</html>
+
+

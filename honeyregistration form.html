@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<b><u><h1 style=text-align:center>Registration Form</h1></u></b>
+<form action="successfull.html">
+<table>
+<tr>
+<td>
+Name:
+</td>
+<td>
+<input type="text" placeholder="Name"name="">
+</td>
+</tr>
+<tr>
+<td>
+Rollno:
+</td>
+<td>
+<input type="text" placeholder="Rollno"rollno="">
+</td>
+</tr>
+<tr>
+<td>
+Branch:
+</td>
+<td>
+<option type="Select Branch"></option>
+<select>
+<option value="CSE">CSE</option>
+<option value="DS">DS</option>
+<option value="AIML">AIML</option>
+<option value="CS">CS</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+Section:
+</td>
+<td>
+<option type="Select Section"></option>
+<select>
+<option value="A">A</option>
+<option value="B">B</option>
+<option value="C">C</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+Gender:
+</td>
+<td>
+<input type="radio" name="gender">male
+<input type="radio" name="gender">female
+</td>
+</tr>
+<tr>
+<td>
+Phone number:
+</td>
+<td>
+<input type="phone"placeholder="1234******">
+</td>
+</tr>
+<td>
+Email Id:
+</td>
+<td>
+<input type="Email id"placeholder="example@*7">
+</td>
+</tr>
+<tr>
+<td>
+Password:
+</td>
+<td>
+<input type="Password"placeholder="password">
+</td>
+</tr>
+<td>
+Address:
+</td>
+<td>
+<textarea row="5" col="15"placeholder="Address"></textarea>
+</td>
+</tr>
+<tr>
+<td>
+<input type="Submit" value="Submit">
+<input type="Reset" value="Reset">
+<input id="CancelButton" onclick="CancelButton_click" type="button" value="Cancel">
+</td>
+</tr>
+</table>
+</form>
+<script>
+function clear form(){
+document.getElementById("input-name").value="";
+document.getElementById("input-email").value="";
+}
+</script>
+</body>
+</html>
